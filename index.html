@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+
+<body>
+
+  <div class="app">
+    <!-- HEADER -->
+    <div class="header">
+      <div class="heading">
+        <h1>TODO</h1>
+        <h1>SWITCH</h1>
+      </div>
+      <form action="">
+        <!-- <span style="position: absolute; margin: 6px;"> -->
+        <!-- <input type="checkbox" style="border-radius: 20px;"> -->
+        <!-- </span> -->
+        <input type="text" class="screen" placeholder="Create a new todo..." value="" onblur="bu()">
+      </form>
+    </div>
+
+    <!-- ----- WRITE YOUR TODO---- -->
+    <div class="write">
+      <!-- <h3>Start a new TODO...</h3> -->
+      <div class="writeOne">
+        <div class="written">
+          <input type="checkbox" name="" id="" style="margin-right: 30px;">
+          <h4>Complete Online Javascript Course</h4>
+        </div>
+        <h1 class="cancel">&times;</h1>
+      </div>
+      <hr>
+      <div class="writeOne">
+        <div class="written">
+          <input type="checkbox" name="" id="" style="margin-right: 30px;">
+          <h4>Jog around the park 3X</h4>
+        </div>
+        <h1 class="cancel">&times;</h1>
+      </div>
+      <hr>
+
+      <div class="writeOne">
+        <div class="written">
+          <input type="checkbox" name="" id="" style="margin-right: 30px;">
+          <h4>10mins meditation</h4>
+        </div>
+        <h1 class="cancel">&times;</h1>
+      </div>
+
+    </div>
+
+    <!-- -----SUMMARY------ -->
+    <hr>
+    <div class="summary">
+      <p> <span class="todo-left">0</span> items left</p>
+      <div class="summary-middle">
+        <li>All</li>
+        <li>Active</li>
+        <li>Completed</li>
+      </div>
+      <p>Clear Completed</p>
+    </div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

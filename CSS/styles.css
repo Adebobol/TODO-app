@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(235, 21%, 11%);
+    background-image: url(..//images/bg-desktop-dark.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.app {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+input[type="text"] {
+    width: 99%;
+    outline: none;
+    height: 40px;
+}
+
+input[type="checkbox"] {
+    height: 30px;
+    width: 30px;
+}
+
+.write {
+    background-color: hsl(234, 11%, 52%);
+
+}
+
+.writeOne {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.written {
+    display: flex;
+    align-items: center;
+}
+
+
+.cancel {
+    cursor: pointer;
+}
+
+.ruleOver {
+    text-decoration: line-through;
+}
+
+/* ------SUMMARY----------- */
+
+.summary {
+    background-color: hsl(234, 11%, 52%);
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.summary-middle {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+li {
+    list-style: none;
+    margin-left: 10px;
+}
