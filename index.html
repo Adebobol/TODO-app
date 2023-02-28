@@ -22,37 +22,41 @@
         <h1>SWITCH</h1>
       </div>
       <form action="">
-        <!-- <span style="position: absolute; margin: 6px;"> -->
-        <!-- <input type="checkbox" style="border-radius: 20px;"> -->
-        <!-- </span> -->
-        <input type="text" class="screen" placeholder="Create a new todo..." value="" onblur="bu()">
+        <span style="position: absolute; margin-left: 20px; margin-top: 6px;">
+          <input type="checkbox" style="border-radius: 20px;">
+        </span>
+        <input type="text" class="screen" placeholder="Create a new todo..." value="" style="padding-left: 60px;"
+        onblur="bu()" onclick="ty()">
       </form>
     </div>
 
     <!-- ----- WRITE YOUR TODO---- -->
     <div class="write">
       <!-- <h3>Start a new TODO...</h3> -->
-      <div class="writeOne">
-        <div class="written">
-          <input type="checkbox" name="" id="" style="margin-right: 30px;">
-          <h4>Complete Online Javascript Course</h4>
-        </div>
-        <h1 class="cancel">&times;</h1>
-      </div>
-      <hr>
-      <div class="writeOne">
-        <div class="written">
-          <input type="checkbox" name="" id="" style="margin-right: 30px;">
-          <h4>Jog around the park 3X</h4>
-        </div>
-        <h1 class="cancel">&times;</h1>
-      </div>
-      <hr>
 
       <div class="writeOne">
         <div class="written">
-          <input type="checkbox" name="" id="" style="margin-right: 30px;">
-          <h4>10mins meditation</h4>
+          <input type="checkbox" name="" class="check" style="margin-right: 30px;">
+          <h4 class="rule">Complete Online Javascript Course</h4>
+        </div>
+        <h1 class="cancel">&times;</h1>
+      </div>
+
+
+      <div class="writeOne">
+        <div class="written">
+          <input type="checkbox" name="" class="check" style="margin-right: 30px;">
+          <h4 class="rule">Jog around the park 3X</h4>
+        </div>
+        <h1 class="cancel">&times;</h1>
+      </div>
+
+
+
+      <div class="writeOne">
+        <div class="written">
+          <input type="checkbox" name="" class="check" style="margin-right: 30px;">
+          <h4 class="rule">10mins meditation</h4>
         </div>
         <h1 class="cancel">&times;</h1>
       </div>
